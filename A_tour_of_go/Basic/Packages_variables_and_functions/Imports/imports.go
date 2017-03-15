@@ -2,13 +2,12 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"math/rand"
 	"time"
 )
 
-const interval int = 100
-
 func main() {
 	rand.Seed(time.Now().Unix())
-	fmt.Print("Mi favorite number is ", rand.Intn(interval))
+	fmt.Printf("Now you have %g problems! \n", math.Sqrt(rand.Float64()))
 }
