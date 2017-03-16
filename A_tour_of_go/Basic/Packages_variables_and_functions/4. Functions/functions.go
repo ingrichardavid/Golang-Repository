@@ -4,8 +4,8 @@ import (
 	"fmt"
 )
 
-func user(name string, lastName string, age string) string {
-	return "Nombre: " + name + ", Apellido: " + lastName + ", Edad: " + age
+func user(name string, lastName string, birthday string) string {
+	return "Nombre: " + name + ", Apellido: " + lastName + ", Edad: " + birthday
 }
 
 func main() {
