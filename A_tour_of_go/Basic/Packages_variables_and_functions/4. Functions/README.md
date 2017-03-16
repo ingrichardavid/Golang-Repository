@@ -1,4 +1,4 @@
-# Imports
+# Functions
 A function can take zero or more arguments.
 
 In this example, user takes three parameters of type string.
