@@ -6,7 +6,7 @@ import (
 )
 
 var (
-	toBe   bool   = false
+	toBe          = false
 	maxInt uint64 = 1<<64 - 1
 	z             = cmplx.Sqrt(-5 + 12i)
 )
