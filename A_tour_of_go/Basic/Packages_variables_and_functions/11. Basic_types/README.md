@@ -1,21 +1,22 @@
 # Basic types
 Go's basic types are
 
-_**bool
+_**bool**_
 
-string
+_**string**_
 
-int  int8  int16  int32  int64
-uint uint8 uint16 uint32 uint64 uintptr
+_**int  int8  int16  int32  int64**_
 
-byte // alias for uint8
+_**uint uint8 uint16 uint32 uint64 uintptr**_
 
-rune // alias for int32
+_**byte // alias for uint8**_
+
+_**rune // alias for int32**_
      // represents a Unicode code point
 
-float32 float64
+_**float32 float64**_
 
-complex64 complex128**_
+_**complex64 complex128**_
 
 The example shows variables of several types, and also that variable declarations may be "factored" into blocks, as with import statements.
 
