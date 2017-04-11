@@ -120,5 +120,4 @@ func main() {
 	fmt.Print("\t"+messageResult, result)
 	fmt.Println()
 	fmt.Println()
-
 }
